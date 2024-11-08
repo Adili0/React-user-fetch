@@ -1,0 +1,69 @@
+/* General styles for the Users component */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7f6;
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  font-size: 16px;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #e0f7e1;
+}
+
+td {
+  color: #555;
+}
+
+h1 {
+  color: #e74c3c;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 24px;
+}
+
+div {
+  margin-top: 50px;
+}
+
+/* For smaller screens, make the table more responsive */
+@media (max-width: 768px) {
+  table {
+    width: 90%;
+  }
+  
+  th, td {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+}
